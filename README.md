@@ -1,6 +1,23 @@
-# Salesforce DX Project: Next Steps
+# Salesforce DX Project: Current State
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+[Click Here to View](https://bethfrenchresume-developer-edition.na163.force.com/)
+
+<img width="1186" alt="Screen Shot 2021-11-09 at 9 02 12 PM" src="https://user-images.githubusercontent.com/49760458/141042077-eadb289f-c734-4667-b144-83d13fe84e65.png">
+
+# Salesforce DX Project: Next Steps
+- Add functionality to Generate PDF Button
+- Add Custom Objects and Fields to Manifest
+- Fix Volunteer Section Sort Order
+- Add Education Section
+- Include Skills & Certifications
+- Portfolio Links
+- About Me Section
+- Photo
+- Company Icons
+- expose in a Community
+- Make it scalable
+  - different resume versions for different jobs
+  - ability for more than one person to generate resume
 
 ## How Do You Plan to Deploy Your Changes?
 
