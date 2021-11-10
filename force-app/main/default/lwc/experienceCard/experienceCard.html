@@ -1,0 +1,34 @@
+<template>
+    <div class="slds-section slds-is-open">
+        <lightning-card>
+            <div class="slds-p-horizontal_large">
+                <template for:each={experience} for:item="exp">
+                    <div key ={exp.Id} class="slds-section slds-is-open">
+                        <h3 class="slds-section__title slds-theme_shade">
+                            <span class="slds-truncate slds-p-horizontal_small" title="Section Title">{exp.Name}</span>
+                        </h3>
+                    </div>
+                    <ul key={exp.Id}>
+                        <template for:each={exp.Work_History__r} for:item="hx">
+                            <li key={hx.Id}>
+                                <div key={hx.Id} aria-hidden="false" class="slds-section__content slds-p-horizontal_large slds-p-bottom_xxsmall">
+                                    <div key={hx.Id}>
+                                        <h1>
+                                            <strong>{hx.Name}</strong>
+                                        </h1>
+                                        <lightning-formatted-date-time value={hx.Start_Date__c}></lightning-formatted-date-time>
+                                        <template if:true={hx.End_Date__c}>
+                                            - <lightning-formatted-date-time value={hx.End_Date__c}></lightning-formatted-date-time>
+                                        </template>
+                                        <template if:false={hx.End_Date__c}> - Present</template> 
+                                        <p>{hx.Description__c}</p>
+                                    </div>
+                                </div>
+                            </li>       
+                        </template>
+                    </ul>
+                </template>
+            </div>
+        </lightning-card>
+    </div>
+</template>

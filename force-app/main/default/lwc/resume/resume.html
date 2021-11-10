@@ -1,0 +1,37 @@
+<template>
+    <div class="slds-page-header slds-page-header_record-home">
+        <div class="slds-page-header__row">
+            <div class="slds-page-header__col-title">
+                <div class="slds-media">
+                    <div class="slds-media__figure">
+                        <span class="slds-icon_container slds-icon-standard-opportunity">
+                            <lightning-icon icon-name="standard:code_playground" alternative-text="Code Playground Icon"></lightning-icon>
+                        </span>
+                    </div>
+                    <div class="slds-media__body">
+                        <div class="slds-page-header__name">
+                            <div class="slds-page-header__name-title">
+                                <h1>
+                                    <span>Salesforce Engineer</span>
+                                    <span class="slds-page-header__title slds-truncate" title="Acme - 1,200 Widgets">Elizabeth French</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-page-header__col-actions">
+                <div class="slds-page-header__controls">
+                    <div class="slds-page-header__control">
+                        <button class="slds-button slds-button_neutral slds-button_stateful slds-not-selected" aria-live="assertive" aria-pressed="false">Generate PDF </button>
+                    </div>
+                </div>
+            </div>
+        </div>                    
+        <div>                
+            <c-experience-card experience={workHx}></c-experience-card>
+            <c-experience-card experience={volunteerHx}></c-experience-card>
+            <c-experience-card experience={educationHx}></c-experience-card>           
+        </div>
+    </div>
+</template>
