@@ -5,7 +5,6 @@ export default class Resume extends LightningElement {
 
     @track experience;
     @track error;
-    @track altExp;
     @track workHx;
     @track volunteerHx;
     @track educationHx;
