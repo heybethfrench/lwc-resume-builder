@@ -3,6 +3,7 @@
 
 # Salesforce DX Project: Next Steps
 - Add functionality to Generate PDF Button
+- Add Custom Objects and Fields to Manifest
 - Fix Volunteer Section Sort Order
 - Add Education Section
 - Include Skills & Certifications
